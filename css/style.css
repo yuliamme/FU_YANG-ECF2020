@@ -21,15 +21,25 @@ a, a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
 
+html {
+	height: 100%; 
+	margin: 0; 
+}
+
 
 /*  body & main  */
 
 body {
 	background: linear-gradient(to right, #a154e2, #486cee, #3acaa1) center no-repeat; 
 	background-size: cover;
-	height: 100vh; 
 	background-attachment: fixed;
 	color: white;
+	height: 100%; 
+}
+
+.body-wrap {
+	min-height: 100%; 
+	margin-bottom: -50px; 
 }
 
 body > div {
@@ -173,6 +183,10 @@ footer {
 	width: 100%; 
 	background: #32323d; 
 	margin-top: auto; 
+}
+
+.push {
+  height: 50px;
 }
 
 footer * {
